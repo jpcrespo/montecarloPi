@@ -3,14 +3,13 @@ bucles para resolver el problema. En el anterior
 ejercicio se usaron dos bucles for para la solucion.
 En esta propuesta reduciremos el uso a un solo bucle 
 FOR '''
-
 import numpy as np
 import matplotlib.pyplot as plt
 from time import time
 
 
 
-N = np.logspace(2,8,num=10,endpoint=True)
+N = np.logspace(2,4,num=10,endpoint=True)
 N = np.around(N).astype(int)
 A=[]
 pis=[]
@@ -41,3 +40,4 @@ plt.xlabel('Número de pruebas')
 plt.ylabel('Error abs Pi por MC')
 plt.grid(True)
 plt.show()
+

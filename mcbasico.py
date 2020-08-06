@@ -6,7 +6,7 @@ from time import time
 A=[]
 pi=[]
 
-N = np.logspace(2,8,num=10,endpoint=True)
+N = np.logspace(2,4,num=10,endpoint=True)
 N = np.around(N).astype(int) #numeros enteros
 
 tiempo_inicial = time() 
