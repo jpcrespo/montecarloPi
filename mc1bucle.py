@@ -9,7 +9,7 @@ from time import time
 
 
 
-N = np.logspace(2,4,num=10,endpoint=True)
+N = np.logspace(2,8,num=10,endpoint=True)
 N = np.around(N).astype(int)
 A=[]
 pis=[]
